@@ -22,43 +22,37 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan skrip ini:
 Jika Anda menggunakan Git, Anda dapat mengkloning repositori ini dengan perintah berikut:
 
 ```bash
-https://github.com/BlackCat-443/Spam-WA.git
+git clone https://github.com/BlackCat-443/Spam-WA.git
+```
+```bash
 cd SPAM-WA
-
-
-2. Buat Lingkungan Virtual
+```
+### 2. Buat Lingkungan Virtual
 Buat lingkungan virtual untuk proyek ini dengan perintah berikut:
-
+```
 python -m venv venv
-
-
-
-3. Aktifkan Lingkungan Virtual
+```
+### 3. Aktifkan Lingkungan Virtual
 Aktifkan lingkungan virtual yang telah Anda buat:
-
 Untuk Windows:
-
+```
 venv\Scripts\activate
-
-
+```
 Untuk macOS/Linux:
-
+```
 source venv/bin/activate
-
-
-
-4. Instal Pustaka yang Diperlukan
+```
+### 4. Instal Pustaka yang Diperlukan
 Setelah lingkungan virtual diaktifkan, instal pustaka yang diperlukan dengan perintah berikut:
 
-
+```
 pip install requests
-
-
-5. Jalankan Skrip
+```
+### 5. Jalankan Skrip
 Setelah semua pustaka terinstal, Anda dapat menjalankan skrip dengan perintah berikut:
-
+```
 python spam-wa.py
-
+```
 Gantilah spam.py dengan nama file skrip Anda jika berbeda.
 
 ⚠️ Catatan
